@@ -24,14 +24,14 @@ span {
   align-items: center;
 }
 .title {
-  width: 393px;
+  width: 398px;
   height: auto;
   font-family: league spartan;
-  font-size: 120.599px;
+  font-size: 118.599px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: -9.796px;
+  letter-spacing: -7.796px;
   margin-bottom: 0;
   padding-bottom: 0;
   background: var(
@@ -46,7 +46,7 @@ span {
   display: flex;
   color: var(--Primary, #323232);
   font-family: Inter;
-  font-size: 40.688px;
+  font-size: 43.688px;
   font-style: normal;
   font-weight: 600;
   line-height: 49.984px; /* 98.611% */
