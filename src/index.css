@@ -1,3 +1,5 @@
+/* STYLING FOR THE HOME PAGE */
+
 body {
   margin: 0;
   border: 0;
@@ -7,6 +9,11 @@ body {
 span {
   color: var(--Subtitle, #777);
 }
+.home {
+  height: 150vh;
+  width: auto;
+}
+
 .titleDiv {
   display: flex;
   width: auto;
@@ -15,13 +22,6 @@ span {
   justify-content: center;
   align-items: center;
   padding-bottom: 0;
-}
-.lowerHeader {
-  margin-top: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .title {
   width: 398px;
@@ -88,4 +88,94 @@ p {
 
   /* Shadow */
   box-shadow: 0px 2px 4px 0px rgba(51, 51, 51, 0.25);
+  cursor: pointer;
+}
+
+.downloadButton {
+  cursor: pointer;
+}
+
+.lowerHeader {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bar {
+  width: auto;
+  height: 8px;
+  margin-top: 20px;
+  background: var(
+    --Main-Gradient,
+    linear-gradient(135deg, #be58cb 0%, #f10e5a 100%)
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* STYLING FOR THE NAV-MENU */
+/* Below are the css styling of the Navigation menu */
+
+ul {
+  padding-top: 28px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-bottom: 8px;
+  font-family: inter;
+  color: var(--Primary, #323232);
+  transition: all 0.3s ease;
+}
+li:hover {
+  font-size: 25px;
+  cursor: pointer;
+}
+.socials {
+  padding-top: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.navMain {
+  width: 40px;
+  height: 40.943px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+  position: fixed;
+  padding-left: 81vw;
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: flex-end;
+  padding-top: 30px;
+}
+.socialIcons {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  cursor: pointer;
 }

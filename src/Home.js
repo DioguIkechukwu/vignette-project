@@ -6,7 +6,9 @@ const Home = () => {
         <h1 className="title"> {title} </h1>
         <p className="motto">Make your streams more virtual</p>
         <p className="headWriteUp">Free and Open Source</p>
+
         <button className="headBtn">Download</button>
+
         <div className="lowerHeader">
           <p>Learn More</p>
 
@@ -15,6 +17,7 @@ const Home = () => {
           </span>
         </div>
       </div>
+      <div className="bar"></div>
     </div>
   );
 };
