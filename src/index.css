@@ -5,7 +5,7 @@ body {
   border: 0;
   box-sizing: border-box;
   background: scroll;
-  background-image: url(../public/assets/background.png);
+  background-image: url(/assets/background.png);
 }
 
 span {
