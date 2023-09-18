@@ -1,5 +1,6 @@
 import Home from "./Home";
 import Navbar from "./Navbar";
+import About from "./About";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <div className="header">
         <Navbar />
         <Home />
+        <About />
       </div>
     </div>
   );

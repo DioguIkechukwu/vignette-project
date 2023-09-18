@@ -4,6 +4,8 @@ body {
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  background: scroll;
+  background-image: url(../public/assets/background.png);
 }
 
 span {
@@ -91,10 +93,6 @@ p {
   cursor: pointer;
 }
 
-.downloadButton {
-  cursor: pointer;
-}
-
 .lowerHeader {
   margin-top: 100px;
   display: flex;
@@ -123,11 +121,11 @@ ul {
 li {
   display: flex;
   flex-direction: column;
-  text-align: right;
   padding-bottom: 8px;
   font-family: inter;
   color: var(--Primary, #323232);
   transition: all 0.3s ease;
+  text-align: right;
 }
 li:hover {
   font-size: 25px;
@@ -155,13 +153,14 @@ li:hover {
   height: auto;
   flex-shrink: 0;
   position: fixed;
-  padding-left: 81vw;
+  top: 0;
+  right: 10px;
 }
 .navList {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 .navMenu {
   display: flex;
