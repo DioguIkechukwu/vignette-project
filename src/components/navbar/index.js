@@ -1,16 +1,17 @@
 import React from "react";
+import { NavBarContainer, Wrapper, Socials, NavList } from "./style";
 
 const Navbar = () => {
   return (
-    <div className="navBar">
-      <div className="navMenu">
+    <NavBarContainer>
+      <Wrapper>
         <img
-          className="navMain"
+          className="logo"
           src="/assets/navbar-icons/navMain.svg"
           alt=""
           srcset=""
         />
-        <div className="socials">
+        <Socials>
           <img
             className="socialIcons"
             src="/assets/navbar-icons/navTweet.svg"
@@ -31,8 +32,8 @@ const Navbar = () => {
             src="/assets/navbar-icons/navCircle.svg"
             alt=""
           />
-        </div>
-        <div className="navList">
+        </Socials>
+        <NavList>
           <ul>
             <li>Home</li>
             <li>About</li>
@@ -42,9 +43,9 @@ const Navbar = () => {
             <li>Download</li>
             <li>Blog</li>
           </ul>
-        </div>
-      </div>
-    </div>
+        </NavList>
+      </Wrapper>
+    </NavBarContainer>
   );
 };
 

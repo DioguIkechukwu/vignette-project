@@ -1,7 +1,9 @@
 import React from "react";
+import { Container } from "./style";
+
 const About = () => {
   return (
-    <div className="aboutContainer">
+    <Container>
       <div className="aboutWriteUps">
         <h2>About</h2>
         <p>
@@ -18,7 +20,7 @@ const About = () => {
         </p>
       </div>
       <div className="aboutImages"></div>
-    </div>
+    </Container>
   );
 };
 

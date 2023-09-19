@@ -1,16 +1,12 @@
 import React from "react";
-import Home from "./home/Home";
-import Navbar from "./navbar/Navbar";
-import About from "./about/About";
+import Navbar from "./components/navbar";
+import Home from "./pages/home";
 
 const App = () => {
   return (
     <div className="App">
-      <div className="header">
-        <Navbar />
-        <Home />
-        <About />
-      </div>
+      <Navbar />
+      <Home />
     </div>
   );
 };
