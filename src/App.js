@@ -1,6 +1,7 @@
-import Home from "./Home";
-import Navbar from "./Navbar";
-import About from "./About";
+import React from "react";
+import Home from "./home/Home";
+import Navbar from "./navbar/Navbar";
+import About from "./about/About";
 
 const App = () => {
   return (
