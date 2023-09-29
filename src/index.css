@@ -116,6 +116,10 @@ p {
 
 ul {
   padding-top: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 li {
@@ -128,8 +132,7 @@ li {
   text-align: right;
 }
 li:hover {
-  font-size: 25px;
-  cursor: pointer;
+  transform: scale(1.5);
 }
 .socials {
   padding-top: 40px;
@@ -154,7 +157,7 @@ li:hover {
   flex-shrink: 0;
   position: fixed;
   top: 0;
-  right: 10px;
+  right: 20px;
 }
 .navList {
   display: flex;
